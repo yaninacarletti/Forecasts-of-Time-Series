@@ -10,8 +10,7 @@ Si existe o no algún patrón subyacente en los datos que determine la presencia
 Pre-requisito indispensable para la aplicabilidad de muchos de los modelos de series temporales.
 
 Concretamente, en una primera instacia se determina el período de tiempo que comprende la serie, para luego  
-proseguir con su ploteo  y posterior descomposición de la misma.
-En una segunda instancia se busca determinar si la serie temporal es estacionaria o no para luego indagar si posee alguna estacionalidad detectable. En base a lo anterior, se aplican tres enfoques distintos para su estudio, a saber:
+proseguir con su ploteo  y posterior descomposición de la misma. En una segunda instancia se busca determinar si la serie temporal es estacionaria o no para luego indagar si posee alguna estacionalidad detectable. En base a lo anterior, se aplican tres enfoques distintos para su estudio, a saber:
 1) Un modelado con ARIMA, previa determinación de parámetros mediante 'ADF Test' y gráficas 'ACF' y 'PACF'.
 2) Un modelado con ARIMA junto a una optimización con Gridsearch buscando minimizar el criterio de información de akaike, AIC.
 3) Un modelado con AutoARIMA.
